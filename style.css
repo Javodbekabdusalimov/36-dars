@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  height: 90px;
+  background-color: white;
+  padding: 0px 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head a {
+  text-decoration: none;
+  color: grey;
+  font-size: 25px;
+}
+.head a:hover {
+  color: black;
+}
+.head a:active {
+  text-decoration: none;
+  color: grey;
+  font-size: 25px;
+}
+.head select {
+  text-decoration: none;
+  outline: none;
+  font-size: 25px;
+  color: blue;
+  border: none;
+}
+.orta {
+  width: 600px;
+  height: 300px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 30px;
+}
+main {
+  background-color: rgba(128, 128, 128, 0.496);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.orta h1 {
+  color: blue;
+  margin: 0 auto;
+}
+.orta input {
+  width: 500px;
+  height: 50px;
+  border-radius: 40px;
+
+  padding: 0px 40px;
+  outline: none;
+  border: 1 px solid white;
+  color: grey;
+  font-size: 30px;
+}
+.orta input:hover {
+  color: black;
+}
+.orta button {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  margin: 0 auto;
+  border-radius: 40px;
+  border: 1px solid green;
+  width: 200px;
+  height: 50px;
+}
+.orta form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.orta button:hover {
+  color: green;
+  background-color: white;
+}
+.orta button:active {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  margin: 0 auto;
+  border-radius: 40px;
+  border: 1px solid green;
+  width: 200px;
+  height: 50px;
+}
